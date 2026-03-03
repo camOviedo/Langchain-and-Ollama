@@ -3,7 +3,7 @@
 
 import streamlit as st
 
-from dotenv import load_dotenv # langfuse or opik
+#from dotenv import load_dotenv # langfuse or opik
 from langchain_ollama import ChatOllama
 
 from langchain_core.prompts import (
@@ -18,8 +18,6 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_community.chat_message_histories import SQLChatMessageHistory
 
 from langchain_core.output_parsers import StrOutputParser
-
-load_dotenv('./../.env')
 
 st.title("Make Your Own Chatbot")
 st.write("Chat with me! Catch me at https://youtube.com/kgptalkie")

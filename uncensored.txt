@@ -1,0 +1,2 @@
+FROM "/home/camilo/Descargas/WizardLM-7B-uncensored.Q8_0.gguf"
+
